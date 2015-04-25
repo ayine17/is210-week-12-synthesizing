@@ -24,3 +24,4 @@ class CustomError(Exception):
         """
         self.cause = cause
         self.message = message
+        Exception.__init__(self)
